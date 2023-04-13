@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#"><img src="./assets/logo.png" alt="My Logo" /></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#track" class="nav-link">Tracking Diet</a></li>
+          <li><a href="#" class="nav-link">Article</a></li>
+          <li>
+            <form action="#" method="get" class="search-form">
+              <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input" />
+                <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+              </div>
+            </form>
+          </li>
+          <li>
+            <button class="nav-btn">Login</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="diet-program">
+      <div class="diet-program-content">
+        <p id="description">BaRies (Balance Calories)</p>
+        <h2>Membantu menjaga kalori</h2>
+        <h2>Demi kesehatan tubuh</h2>
+        <h3>Program diet ini hadir untuk membantu setiap orang untuk menjaga kesehatan mereka berdasarkan makanan yang mereka konsumsi</h3>
+        <button class="join-btn">Join Us</button>
+      </div>
+      <img src="assets/diet-program-image.jpg" alt="Diet program image" />
+    </section>
+    <section>
+      <div class="component-container">
+        <h2 class="component-heading">Hidup Sehat dengan Gizi Seimbang</h2>
+        <h3 class="component-subheading">
+          Gizi seimbang diperlukan tubuh untuk tumbuh, menjaga kesehatan dan <br />
+          aktivitas, juga fungsi kehidupan sehari-hari.
+        </h3>
+        <img src="assets/gizi-seimbang.jpg" alt="Gizi Seimbang" class="component-image" />
+      </div>
+    </section>
+
+    <section id="track" class="diet-program">
+      <div class="diet-program-content">
+        <h2>Track Your Calories</h2>
+        <h3>
+          Mengetahui jumlah kalori makanan yang dikonsumsi dan merupakan hal yang penting bagi kebutuhan tubuh loh! <br />
+          Yuk hitung kalori harianmu.
+        </h3>
+        <button class="join-btns">Track Your Calories</button>
+      </div>
+      <img src="assets/track-your-calories.jpg" alt="Diet program image" />
+    </section>
+    <section>
+      <div class="component-container">
+        <h2 class="component-heading">Layanan Kami</h2>
+        <h3 class="component-subheading">Program Diet Hadir menjadi solusi untuk anda</h3>
+        <img src="assets/gizi-seimbang.jpg" alt="Gizi Seimbang" class="component-image" />
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-form">
+        <h2>Contact Us!</h2>
+        <form id="form">
+          <div class="form-group">
+            <label class="input" for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+          </div>
+          <div class="form-group">
+            <label class="input" for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city" />
+          </div>
+          <div class="form-group">
+            <label class="input" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" />
+          </div>
+          <div class="form-group">
+            <label class="input" for="zip-code">Zip-code:</label>
+            <input type="number" id="zip-code" name="zip-code" placeholder="Enter your zip-code" />
+          </div>
+          <div class="form-group">
+            <label id="check" for="status"> Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai </label>
+            <input type="checkbox" id="status" />
+          </div>
+          <button type="submit" id="submit-form" onsubmit="submit()">Submit</button>
+          <div id="warning"></div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <span>This page is submission for <a href="https://skilvul.com">Skilvul</a> assignment</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
