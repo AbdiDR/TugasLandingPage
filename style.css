@@ -103,7 +103,7 @@ nav img {
 }
 
 .hover:hover {
-  background-color: #f5f5f5;
+  background-color: #f5f5f5 !important;
 }
 
 .nav-link:hover {
