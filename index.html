@@ -20,12 +20,12 @@
             <form action="#" method="get" class="search-form">
               <div class="search-container">
                 <input type="text" placeholder="Search..." class="search-input" />
-                <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+                <button type="submit" class="search-btn hover"><i class="fas fa-search"></i></button>
               </div>
             </form>
           </li>
           <li>
-            <button class="nav-btn">Login</button>
+            <button class="nav-btn hover">Login</button>
           </li>
         </ul>
       </nav>
@@ -36,7 +36,7 @@
         <h2>Membantu menjaga kalori</h2>
         <h2>Demi kesehatan tubuh</h2>
         <h3>Program diet ini hadir untuk membantu setiap orang untuk menjaga kesehatan mereka berdasarkan makanan yang mereka konsumsi</h3>
-        <button class="join-btn">Join Us</button>
+        <button class="join-btn hover">Join Us</button>
       </div>
       <img src="assets/diet-program-image.jpg" alt="Diet program image" />
     </section>
@@ -58,7 +58,7 @@
           Mengetahui jumlah kalori makanan yang dikonsumsi dan merupakan hal yang penting bagi kebutuhan tubuh loh! <br />
           Yuk hitung kalori harianmu.
         </h3>
-        <button class="join-btns">Track Your Calories</button>
+        <button class="join-btn hover">Track Your Calories</button>
       </div>
       <img src="assets/track-your-calories.jpg" alt="Diet program image" />
     </section>
@@ -90,18 +90,20 @@
             <label class="input" for="zip-code">Zip-code:</label>
             <input type="number" id="zip-code" name="zip-code" placeholder="Enter your zip-code" />
           </div>
-          <div class="form-group">
-            <label id="check" for="status"> Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai </label>
+          <div class="form-group form-checkbox">
             <input type="checkbox" id="status" />
+            <div>
+              <label id="check" for="status"> Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai </label>
+            </div>
           </div>
-          <button type="submit" id="submit-form" onsubmit="submit()">Submit</button>
+          <button class="hover" type="submit" id="submit-form" onsubmit="submit()">Submit</button>
           <div id="warning"></div>
         </form>
       </div>
     </section>
 
     <footer>
-      <span>This page is submission for <a href="https://skilvul.com">Skilvul</a> assignment</span>
+      <span>This page is a submission for <a href="https://skilvul.com">Skilvul</a> assignment</span>
     </footer>
     <script src="script.js"></script>
   </body>
